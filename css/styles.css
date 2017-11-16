@@ -1,0 +1,196 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-image: url(../img/geometry.png);
+  background-repeat: repeat;
+}
+
+.header ul {
+  margin: 18px;
+  color: #122e44;
+  float: right;
+  list-style: none;
+}
+
+.header li {
+  float: left;
+  margin: 15px;
+  font-size: 29px;
+}
+
+.header ul a{
+  color: #122e44;
+}
+
+.container {
+  position: relative;
+}
+
+.header{
+  width: 100%;
+  height: 660px;
+  background-image: url(../img/hero.jpeg);
+  background-size: cover;
+  background-position: 0px -360px;
+  color: white;
+}
+.wrap {
+  width: 100%;
+}
+
+.wrap:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.section1{
+  padding: 15px;
+  width: 45%;
+  float: left;
+  margin: 40px;
+}
+
+.section2{
+  padding: 15px;
+  background-color: lightgray;
+  width: 45%;
+  float: right;
+  background-image: url(../img/tree_bark.png);
+  background-repeat: repeat;
+  height: 863px;
+}
+
+.row{
+  width: 80%;
+  margin: 5px auto;
+}
+.row img {
+  width: 22%;
+  margin: 1%;
+  border-radius: 10px;
+  filter: grayscale(0%);
+  background-color: white;
+}
+
+.rows img:hover{
+  filter: grayscale(100%);
+}
+
+.fa {
+  font-size: 1.6em;
+  margin-right: 15px;
+}
+
+.icons {
+  width: 70%;
+  margin: 10px auto 0;
+}
+
+.email-me {
+  width: 35%;
+  display: block;
+  font-size: .95em;
+  color: #fff;
+  padding: 15px 30px;
+  margin: 25px 155px 2px auto;
+  background-color: salmon;
+  border-radius: 10px;
+}
+
+.text{
+  width: 54%;
+  float: right;
+}
+
+.frame {
+  width: 100%;
+  height: auto;
+  transform: rotate(90deg);
+  margin-top: -50px;
+}
+
+.bear-quote {
+  width: 35%;
+  float: left;
+  background-image: url(../img/bear2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bear-quote p {
+  text-align: center;
+}
+
+.bear-quote h3{
+  margin-top: -8px;
+  text-align: center;
+}
+
+.scroll{
+  padding: 15px;
+  background-image: url(../img/bubble.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 156px;
+  word-wrap: break-word;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.title-image{
+  margin: 40px;
+}
+
+h1{
+  font-size: 50px;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+h1:nth-child(2){
+  color: red;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 10px;
+  margin-bottom: 47px;
+}
+.recipe {
+  font-size: 2.5em;
+  list-style-image: url(../img/fish-bone.svg);
+}
+
+.recipe li{
+  text-transform:lowercase;
+}
+
+
+footer {
+  height: 77px;
+  color: #c0d1e4;
+  background-color: #122f45;
+  padding-top: 15px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.section2 h1{
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.logo{
+  width: 110px;
+  margin: 20px;
+}
+
+.rows {
+  margin-top: 50px;
+}
